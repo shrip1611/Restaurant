@@ -1,16 +1,72 @@
-# React + Vite
+# Restro-app
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
+A modern, fully responsive restaurant web application built with React and Vite. Browse through a curated menu of vegetarian and non-vegetarian dishes with an intuitive filtering system and beautiful UI powered by Tailwind CSS.
 
-Currently, two official plugins are available:
+## Features
+- 🍽️ Dynamic menu display with reusable card components
+- 🔍 Filter dishes by Veg/Non-Veg categories
+- 📱 Fully responsive design (mobile, tablet, desktop)
+- ⚡ Fast performance with Vite build tool
+- 🎨 Modern styling with Tailwind CSS
+- 📦 Clean and organized folder structure
+- 🔄 React Hooks for state management
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech Stack
+- **Frontend Framework:** React 18+ (Functional Components)
+- **Build Tool:** Vite
+- **Styling:** Tailwind CSS
+- **Data:** Local JSON file
+- **Data:** JSONPlaceholder (POST request) 
+- **Language:** JavaScript/JSX
 
-## React Compiler
+## Folder Structure
+```
+Restaurant/
+├── src/
+│   ├── components/
+│   │   ├── Header.jsx
+│   │   ├── Menu.jsx
+│   │   └── FoodCard.jsx
+│   ├── services/
+│   │   └── events.json
+│   ├── App.jsx
+│   └── index.css
+├── public/
+├── package.json
+├── vite.config.js
+└── tailwind.config.js
+```
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Installation & Setup
+1. Clone the repository
+    ```bash
+    git clone <https://github.com/shrip1611/New_Restro>
+    cd 
+    ```
+2. Install dependencies
+    ```bash
+    npm install
+    ```
+3. Start the development server
+    ```bash
+    npm run dev
+    ```
 
-## Expanding the ESLint configuration
+## How It Works
+- The app loads menu items from `services/events.json`
+- Menu items are displayed as reusable `MenuCard` components
+- Click filter buttons to toggle between Veg and Non-Veg items
+- Responsive grid layout adapts to different screen sizes using Tailwind utilities
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Future Enhancements
+- 🛒 Shopping cart functionality
+- 💳 Payment integration
+- 🔐 User authentication
+- ⭐ Customer reviews and ratings
+
+## Author
+Created by Shriram Pandav.
+
+## License
+MIT License - Feel free to use this project for learning and development purposes.
