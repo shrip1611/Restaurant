@@ -21,14 +21,16 @@ A modern, fully responsive restaurant web application built with React and Vite.
 - **Language:** JavaScript/JSX
 
 ## Folder Structure
+## 📁 Project Structure
 
+```bash
 Restaurant/
 ├── src/
 │   ├── components/
 │   │   ├── common/
 │   │   ├── header/
 │   │   ├── gallery/
-│   │   ├── form/ 
+│   │   ├── form/
 │   │   └── footer/
 │   ├── services/
 │   │   └── events.json
