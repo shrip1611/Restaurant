@@ -1,4 +1,4 @@
-# Restro-app
+# Restaurant
 
 ## Description
 A modern, fully responsive restaurant web application built with React and Vite. Browse through a curated menu of vegetarian and non-vegetarian dishes with an intuitive filtering system and beautiful UI powered by Tailwind CSS.
@@ -21,13 +21,15 @@ A modern, fully responsive restaurant web application built with React and Vite.
 - **Language:** JavaScript/JSX
 
 ## Folder Structure
-```
+
 Restaurant/
 ├── src/
 │   ├── components/
-│   │   ├── Header.jsx
-│   │   ├── Menu.jsx
-│   │   └── FoodCard.jsx
+│   │   ├── common/
+│   │   ├── header/
+│   │   ├── gallery/
+│   │   ├── form/ 
+│   │   └── footer/
 │   ├── services/
 │   │   └── events.json
 │   ├── App.jsx
